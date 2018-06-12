@@ -53,7 +53,9 @@ function plotBarplot(input,outcome) {
   var data = [{
     x: Object.keys(input),
     y: Object.values(input),
-    type: 'bar'
+    type: 'bar',
+    text: yValue,
+    textposition: 'auto'
   }];
   if (outcome=='CVA' || outcome=='PID') {
     jindex = 0;
@@ -84,7 +86,9 @@ function plotBarplotMultiple(inputs,outcome,names) {
       x: Object.keys(inputs[i]),
       y: Object.values(inputs[i]),
       type: 'bar',
-      name: names[i]
+      name: names[i],
+      text: yValue,
+      textposition: 'auto'
     };
     data[i] = datai;
   }
