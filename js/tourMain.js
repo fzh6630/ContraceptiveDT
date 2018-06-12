@@ -10,7 +10,7 @@ var tour = {
       target: "hamburger_menu",
       placement: "right",
       xOffset: 50,
-      width: tourWidth,
+      width: tourWidth - 10,
       delay: 30,
     },
     {
