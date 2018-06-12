@@ -230,11 +230,11 @@
               </td>
               <td>
                 <label for="inputHeight">Height(cm):</label>
-                <input type="number" class="form-control" id="inputHeight"  min="1" max="300" value = "165" oninput="updateSelect()">
+                <input type="number" class="form-control" id="inputHeight"  min="80" max="300" value = "165" oninput="updateSelect()">
               </td>
               <td>
                 <label for="inputWeight">Weight(kg):</label>
-                <input type="number" class="form-control" id="inputWeight" min="1" max="999" value = "60" oninput="updateSelect()">
+                <input type="number" class="form-control" id="inputWeight" min="20" max="500" value = "60" oninput="updateSelect()">
               </td>
             </tr>
             <tr>
