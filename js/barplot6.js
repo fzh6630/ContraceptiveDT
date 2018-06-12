@@ -3,6 +3,13 @@ var jindex;
 var bgcolors = ['rgba(200,255,0,0.1)','rgba(0,255,200,0.1)'];
 
 var outcomes = ["MI","CVA","VTE","PID","Ectopic"];
+var fullnames = {
+  "MI": "Myocardial Infarction",
+  "CVA": "Cerebrovascular accident",
+  "VTE": "Venous thromboembolism",
+  "PID": "Pelvic inflammatory disease",
+  "Ectopic": "Ectopic pregnancy"
+}
 var outcome;
 
 function updatePlots() {
@@ -66,7 +73,7 @@ function plotBarplot(input,outcome) {
   	yaxis: {
   		range: yrange
   	},
-    title: '<br />' + outcome,
+    title: '<br />' + fullnames[outcome],
     margin: {
       l: 50,
       r: 50,
@@ -102,7 +109,7 @@ function plotBarplotMultiple(inputs,outcome,names) {
     yaxis: {
       range: yrange
     },
-    title: '<br />' + outcome,
+    title: '<br />' + fullnames[outcome],
     margin: {
       l: 50,
       r: 50,
