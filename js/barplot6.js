@@ -5,10 +5,10 @@ var bgcolors = ['rgba(200,255,0,0.1)','rgba(0,255,200,0.1)'];
 var outcomes = ["MI","CVA","VTE","PID","Ectopic"];
 var fullnames = {
   "MI": "Myocardial Infarction",
-  "CVA": "Cerebrovascular accident",
-  "VTE": "Venous thromboembolism",
-  "PID": "Pelvic inflammatory disease",
-  "Ectopic": "Ectopic pregnancy"
+  "CVA": "Cerebrovascular Accident",
+  "VTE": "Venous Thromboembolism",
+  "PID": "Pelvic inflammatory Disease",
+  "Ectopic": "Ectopic Pregnancy"
 }
 var outcome;
 
