@@ -46,11 +46,11 @@
         <li><a style="font-size:125%" href="#"          onclick="hopscotchTour()">Tour</a></li>
       </ul>
     </li>
-    <li><a href="#plotMI"      id="plotMI_button"  >MI     </a></li>
-    <li><a href="#plotCVA"     id="plotCVA_button" >CVA    </a></li>
-    <li><a href="#plotVTE"      >VTE    </a></li>
-    <li><a href="#plotPID"      >PID    </a></li>
-    <li><a href="#plotEctopic"  >Ect    </a></li>
+    <li><a href="#plotMI"      id="plotMI_button"  >Myocardial Infarction     </a></li>
+    <li><a href="#plotCVA"     id="plotCVA_button" >Cerebrovascular Accident    </a></li>
+    <li><a href="#plotVTE"      >Venous Thromboembolism    </a></li>
+    <li><a href="#plotPID"      >Pelvic inflammatory Disease    </a></li>
+    <li><a href="#plotEctopic"  >Ectopic Pregnancy    </a></li>
   </ul>
 </nav>
 <div id="plotMI"      class="container-fluid"><!-- Plotly chart will be drawn inside this DIV --></div>
