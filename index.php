@@ -266,6 +266,11 @@
                   </div>
                 </div>
               </td>
+              <td>
+                <div>
+                  <input type="submit">
+                </div>
+              </td>
             </tr>
           </tbody>
         </table>
