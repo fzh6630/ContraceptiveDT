@@ -143,19 +143,19 @@ function choosePlotData(input0, age, ht, smoking, obesity,
 			delete input[i]['Sterilization']
 		}
 		if (!pill1) {
-			delete input[i]['Pill_1']
+			delete input[i]['Combined oral contraceptives']
 		}
 		if (!pill2) {
-			delete input[i]['Pill_2']
+			delete input[i]['Progestin-only pill']
 		}
 		if (!iud1) {
-			delete input[i]['IUD_1']
+			delete input[i]['Copper IUD']
 		}
 		if (!iud2) {
-			delete input[i]['IUD_2']
+			delete input[i]['Levonorgestrel IUD']
 		}
 		if (!injection) {
-			delete input[i]['3month_injection']
+			delete input[i]['Injectable']
 		}
 		if (!implant) {
 			delete input[i]['Implant']
@@ -167,7 +167,7 @@ function choosePlotData(input0, age, ht, smoking, obesity,
 			delete input[i]['Withdrawal']
 		}
 		if (!nomethod) {
-			delete input[i]['No_method']
+			delete input[i]['No method']
 		}
 	}
 	

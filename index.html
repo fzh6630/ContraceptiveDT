@@ -324,7 +324,7 @@
                       <span> </span>
                     </label>
                     <label for="checkboxPill1" class="[ btn btn-default active ]">
-                      Pill 1
+                      Combined oral contraceptives
                     </label>
                   </div>
                 </div>
@@ -340,7 +340,7 @@
                       <span> </span>
                     </label>
                     <label for="checkboxPill2" class="[ btn btn-default active ]">
-                      Pill 2
+                      Progestin-only pill
                     </label>
                   </div>
                 </div>
@@ -354,7 +354,7 @@
                       <span> </span>
                     </label>
                     <label for="checkboxIUD1" class="[ btn btn-default active ]">
-                      IUD 1
+                      Copper IUD
                     </label>
                   </div>
                 </div>
@@ -370,7 +370,7 @@
                       <span> </span>
                     </label>
                     <label for="checkboxIUD2" class="[ btn btn-default active ]">
-                      IUD 2
+                      Levonorgestrel IUD
                     </label>
                   </div>
                 </div>
@@ -384,7 +384,7 @@
                       <span> </span>
                     </label>
                     <label for="checkbox3mi" class="[ btn btn-default active ]">
-                      3 mo injection
+                      Injectable
                     </label>
                   </div>
                 </div>
